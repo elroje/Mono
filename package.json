@@ -1,6 +1,6 @@
 {
   "name": "mono",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "dependencies": {
     "bitly": "^7.1.2",
     "color-name-list": "^8.12.0",

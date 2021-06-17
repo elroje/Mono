@@ -1,11 +1,11 @@
 const pg = require('pg')
 
 const db = new pg.Pool({
-    user:     'zephyr',
-    host:     'localhost',
+    user:     process.env.DB_USER,
+    host:     process.env.DB_HOST,
     database: 'mono',
-    password: 'Kfdfhjke54Dsde',
-    port:     5432
+    password: process.env.DB_PASSWORD,
+    port:     process.env.DB_PORT
 })
 
 module.exports = db
