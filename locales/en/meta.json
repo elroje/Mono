@@ -1,0 +1,11 @@
+{
+    "name": "en",
+    "nativeName": "English",
+    "moment": "en",
+    "aliases": [
+        "en",
+        "english",
+        "en-us"
+    ],
+    "flagEmoji": ":flag_gb:"
+}

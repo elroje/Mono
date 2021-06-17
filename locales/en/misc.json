@@ -1,0 +1,4 @@
+{
+    "missingMemberPermissions": "You need these permissions to use this command: {{list}}",
+    "missingBotPermissions": "I need these required permissions to use this command: {{list}}"
+}

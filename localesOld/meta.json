@@ -1,0 +1,25 @@
+[
+    {
+        "name": "en",
+        "nativeName": "English",
+        "moment": "en",
+        "aliases": [
+            "en",
+            "english",
+            "en-us"
+        ],
+        "flagEmoji": ":flag_gb:"
+    },
+    {
+        "name": "ru",
+        "nativeName": "Русский",
+        "moment": "ru",
+        "aliases": [
+            "ru",
+            "russian",
+            "русский",
+            "ru-ru"
+        ],
+        "flagEmoji": ":flag_ru:"
+    }
+]

@@ -1,0 +1,8 @@
+{
+    "autorole": "Autorole",
+    "currentAutoRole": "Your current autorole is {{autorole}}.",
+    "noAutoRole": "No autorole selected.",
+    "usage": "Use `{{prefix}}ar <@role>` to set up autorole or `{{prefix}}ar disable` to disable.",
+    "cantAccessRole": "I can't access this role! Make sure it takes place below any of roles I have.",
+    "managedRole": "This role is managed by bot, I can't use it as autorole!"
+}

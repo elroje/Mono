@@ -1,0 +1,139 @@
+{
+    "misc": {
+        "missingMemberPerms": "{e.error} You need these permissions to use this command: {{list}}",
+        "missingBotPerms": "{e.error} I don't have these required permissions to use this command: {{list}}",
+        "noReasonProvided": "No reason provided",
+        "noReason": "No reason",
+        "errorModuleDisabled": "{e.error} This command requires `{{moduleName}}` module!",
+        "moduleEnabled": "{e.success} Module `{{moduleName}}` enabled",
+        "enableModule": "Enable module",
+        "enabled": "{e.success} Enabled",
+        "disabled": "{e.error} Disabled"
+    },
+    "modules": {
+        "moderation": "Moderation",
+        "logging": "Logging"
+    },
+    "permissions": {
+        "ADMINISTRATOR": "Administrator",
+        "CREATE_INSTANT_INVITE": "Create Invite",
+        "KICK_MEMBERS": "Kick Members",
+        "BAN_MEMBERS": "Ban Members",
+        "MANAGE_CHANNELS": "Manage Channels",
+        "MANAGE_GUILD": "Manage Guild",
+        "ADD_REACTIONS": "Add Reactions",
+        "VIEW_AUDIT_LOG": "View Audit Log",
+        "PRIORITY_SPEAKER": "Priority Speaker",
+        "STREAM": "Video",
+        "VIEW_CHANNEL": "View Channel",
+        "SEND_MESSAGES": "Send Messages ",
+        "SEND_TTS_MESSAGES": "Send Text-to-Speech Messages",
+        "MANAGE_MESSAGES": "Manage Messages",
+        "EMBED_LINKS": "Embed Links",
+        "ATTACH_FILES": "Attach Files",
+        "READ_MESSAGE_HISTORY": "Read Message History",
+        "MENTION_EVERYONE": "Mention @everyone, @here, and All Roles",
+        "USE_EXTERNAL_EMOJIS": "Use External Emoji",
+        "VIEW_GUILD_INSIGHTS": "View Server Insights",
+        "CONNECT": "Connect",
+        "SPEAK": "Speak",
+        "MUTE_MEMBERS": "Mute Members",
+        "DEAFEN_MEMBERS": "Deafen Members",
+        "MOVE_MEMBERS": "Move Members",
+        "USE_VAD": "Use Voice Activity",
+        "CHANGE_NICKNAME": "Change Nickname",
+        "MANAGE_NICKNAMES": "Manage Nicknames",
+        "MANAGE_ROLES": "Manage Roles",
+        "MANAGE_WEBHOOKS": "Manage Webhooks",
+        "MANAGE_EMOJIS": "Manage Emojis",
+        "USE_SLASH_COMMANDS": "Use Slash Commands",
+        "REQUEST_TO_SPEAK": "Request to Speak",
+        "MANAGE_THREADS": "Manage Threads",
+        "USE_PUBLIC_THREADS": "Use Public Threads",
+        "USE_PRIVATE_THREADS": "Use Private Threads"
+    },
+    "category": {
+        "owner": "Owner",
+        "moderation": "Moderation",
+        "other": "Other",
+        "information": "Information"
+    },
+    "command": {
+        "help": {
+            "description": "Get help with command",
+            "usage": "help [command]",
+            "strings": {
+                "title": "Help",
+                "specificCommandInfo": "Use «{{prefix}}help <command>» for more information",
+                "parametersUsage": ""
+            }
+        },
+        "server": {
+            "description": "Get server info",
+            "usage": "server",
+            "strings": {
+                "owner": "Owner",
+                "members": "Members",
+                "id": "ID",
+                "created": "Created",
+                "channels": "Channels",
+                "channelsValue": "{{amountText}} {e.textChannel}",
+                "region": "Region"
+            }
+        },
+        "ban": {
+            "description": "Ban member",
+            "usage": "ban <@user> [reason] [-c 1-7]",
+            "strings": {
+                "noMention": "{e.error} {{author}}, please mention a member to ban",
+                "noReason": "{e.error} {{author}}, please provide a reason of ban",
+                "cantBanYourself": "{e.error} {{author}}, you can't ban yourself!",
+                "cantBanMono": "{e.error} {{author}}, hey, don't ban me!",
+                "cantBan": "{e.error} {{author}}, I don't have permissions to ban that member",
+                "superior": "{e.error} {{author}}, you can't ban this member",
+                "banned": "{e.flame} {{member}} was banned by {{author}} ({{reason}})"
+            }
+        },
+        "kick": {
+            "description": "Kick member",
+            "usage": "kick <@user> [reason]",
+            "strings": {
+                "noMention": "{e.error} {{author}}, please mention a member to kick",
+                "noReason": "{e.error} {{author}}, please provide a reason of kick",
+                "cantKickYourself": "{e.error} {{author}}, you can't kick yourself!",
+                "cantKickMono": "{e.error} {{author}}, hey, don't kick me!",
+                "cantKick": "{e.error} {{author}}, I don't have permissions to kick that member",
+                "superior": "{e.error} {{author}}, you can't kick this member",
+                "kicked": "{e.flame} {{member}} was kicked by {{author}} ({{reason}})"
+            }
+        },
+        "module": {
+            "description": "Manage modules",
+            "usage": "module [module name]",
+            "strings": {
+                "modulesListTitle": "Modules",
+                "modulesListDescription": "Type module number to manage it"
+            }
+        },
+        "language": {
+            "description": "Change server language",
+            "usage": "language [code]",
+            "strings": {
+                "languageListTitle": "Change language",
+                "languageListDescription": "Use `{{prefix}}language <code>` to change server locale, for example `{{prefix}}language en`.\nNote that not all languages may be fully supported.",
+                "supportedLanguages": "Supported languages",
+                "languageNotFound": "{e.error} Couldn't find language by `{{input}}`",
+                "languageChanged": "{e.success} Changed server language to {{language}}"
+            }
+        },
+        "calc": {
+            "description": "Evaluate math expression",
+            "usage": "math <expression>",
+            "strings": {
+                "expression": "Expression",
+                "result": "Result",
+                "invalidExpression": "{e.error} Please provide valid math expression!"
+            }
+        }
+    }
+}

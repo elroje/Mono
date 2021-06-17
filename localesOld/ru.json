@@ -1,0 +1,101 @@
+{
+    "misc": {
+        "missingMemberPerms": "{e.error} Тебе не хватает этих прав, чтобы выполнить эту команду: {{list}}",
+        "missingBotPerms": "{e.error} У меня не хватает этих прав, чтобы выполнить эту команду: {{list}}",
+        "noReasonProvided": "Причина не указана",
+        "noReason": "Нет причины"
+    },
+    "permissions": {
+        "ADMINISTRATOR": "Администратор",
+        "CREATE_INSTANT_INVITE": "Создание приглашения",
+        "KICK_MEMBERS": "Выгонять участников",
+        "BAN_MEMBERS": "Банить участников",
+        "MANAGE_CHANNELS": "Управлять каналами",
+        "MANAGE_GUILD": "Управлять сервером",
+        "ADD_REACTIONS": "Добавлять реакции",
+        "VIEW_AUDIT_LOG": "Просматривать журнал аудита",
+        "PRIORITY_SPEAKER": "Приоритетный режим",
+        "STREAM": "Видео",
+        "VIEW_CHANNEL": "Просматривать канал",
+        "SEND_MESSAGES": "Отправлять сообщения",
+        "SEND_TTS_MESSAGES": "Отправка сообщений text-to-speech",
+        "MANAGE_MESSAGES": "Управлять сообщениями",
+        "EMBED_LINKS": "Встраивать ссылки",
+        "ATTACH_FILES": "Прикреплять файлы",
+        "READ_MESSAGE_HISTORY": "Читать историю сообщений",
+        "MENTION_EVERYONE": "Упоминание @everyone, @here и всех ролей",
+        "USE_EXTERNAL_EMOJIS": "Использовать внешние эмодзи",
+        "VIEW_GUILD_INSIGHTS": "Просмотр аналитики сервера",
+        "CONNECT": "Подключаться",
+        "SPEAK": "Говорить",
+        "MUTE_MEMBERS": "Отключать участникам микрофон",
+        "DEAFEN_MEMBERS": "Отключать участникам звук",
+        "MOVE_MEMBERS": "Перемещать участников",
+        "USE_VAD": "Use Voice Activity",
+        "CHANGE_NICKNAME": "Изменять никнейм",
+        "MANAGE_NICKNAMES": "Управлять никнеймами",
+        "MANAGE_ROLES": "Управлять ролями",
+        "MANAGE_WEBHOOKS": "Управлять вебхуками (webhooks)",
+        "MANAGE_EMOJIS": "Управлять эмодзи",
+        "USE_SLASH_COMMANDS": "Использовать слеш-команды",
+        "REQUEST_TO_SPEAK": "Попросить выступить",
+        "MANAGE_THREADS": "Manage Threads",
+        "USE_PUBLIC_THREADS": "Use Public Threads",
+        "USE_PRIVATE_THREADS": "Use Private Threads"
+    },
+    "category": {
+        "owner": "Owner",
+        "moderation": "Модерация",
+        "other": "Другое",
+        "information": "Информация"
+    },
+    "command": {
+        "help": {
+            "description": "Получить помощь с командой",
+            "usage": "help [команда]",
+            "strings": {
+                "title": "Помощь",
+                "specificCommandInfo": "Используй «{{prefix}}help <команда>» для большей информации",
+                "parametersUsage": ""
+            }
+        },
+        "server": {
+            "description": "Получить информацию о сервере",
+            "usage": "server",
+            "strings": {
+                "owner": "Владелец",
+                "members": "Участников",
+                "id": "ID",
+                "created": "Создан",
+                "channels": "Каналы",
+                "region": "Регион"
+            }
+        },
+        "ban": {
+            "description": "Забанить участника",
+            "usage": "ban <@участник> [причина] [-c 1-7]",
+            "strings": {
+                "noMention": "{e.error} {{author}}, нужно упомянуть участника, которого хочешь забанить",
+                "noReason": "{e.error} {{author}}, нужно указать причину бана",
+                "cantBanYourself": "{e.error} {{author}}, ты не можешь забанить себя!",
+                "cantBanMono": "{e.error} {{author}}, эй, не бань меня!",
+                "cantBan": "{e.error} {{author}}, у меня не хватает прав, чтобы забанить этого участника",
+                "superior": "{e.error} {{author}}, ты не можешь забанить этого участника",
+                "banned": "{e.flame} {{author}} забанил(а) {{member}} ({{reason}})"
+            }
+        },
+        "kick": {
+            "description": "Kick member",
+            "usage": "kick <@user> [reason]",
+            "strings": {
+                "noMention":  "{e.error} {{author}}, нужно упомянуть участника, которого хочешь кикнуть",
+                "noReason": "{e.error} {{author}}, нужно указать причину кика",
+                "cantKickYourself": "{e.error} {{author}}, ты не можешь кикнуть себя!",
+                "cantKickMono": "{e.error} {{author}}, эй, не кикай меня!",
+                "cantKick": "{e.error} {{author}}, у меня не хватает прав, чтобы кикнуть этого участника",
+                "superior": "{e.error} {{author}}, ты не можешь кикнуть этого участника",
+                "kicked": "{e.flame} {{author}} кикнул(а) {{member}} ({{reason}})"
+            }
+        }
+    }
+}

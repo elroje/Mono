@@ -1,0 +1,6 @@
+{
+    "noExpression": "Please input an expression to calculate! For example `{{prefix}}calc sqrt(3^2 + 4^2)` will return **5**.   ",
+    "expression": "Expression",
+    "result": "Result",
+    "e:invalidExpression": "Please input valid math expression!"
+}

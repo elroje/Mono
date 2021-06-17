@@ -1,0 +1,4 @@
+{
+    "pinging": "Pinging...",
+    "pong": "{e.pingPong} Pong! My ping is `{{ping}}`ms"
+}

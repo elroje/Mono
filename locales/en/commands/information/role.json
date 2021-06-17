@@ -1,0 +1,12 @@
+{
+    "roleListTitle": "{{guildName}} roles [{{quantity}}]",
+    "roleListFooter": "Use «{{prefix}}role <@role>» to get more information about specific role",
+    "roleInfoTitle": "{{roleName}} role info",
+    "position": "Position",
+    "hoist": "Hoist",
+    "mentionable": "Mentionable",
+    "members": "Members",
+    "created": "Created",
+    "permissions": "Permissions",
+    "e:roleNotFound": "Role not found"
+}

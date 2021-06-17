@@ -1,0 +1,42 @@
+{
+  "modules": {
+    "logs": {
+      "enabled": false,
+      "channel": ""
+    }
+  },
+  "automod": {
+    "caps": {
+      "enabled": true,
+      "percentage": 0.9,
+      "punishment": "ban"
+    },
+    "flood": {
+      "enabled": true,
+      "time": 5000,
+      "quantity": 5
+    },
+    "blacklist": {
+      "enabled": true,
+      "list": ["nigga", "fuck"]
+    }
+  },
+  "roles": {
+    "mute": "521048525102907408",
+    "voice": "521048525102907408"
+  },
+  "cmdProps": {
+    "ban": {
+      "disabled": false,
+      "userPerms": {
+        "type": "required",
+        "users": ["521048525102907408"]
+      },
+      "channelPerms": {
+        "type": "ignored",
+        "channels": ["521048525102907408"]
+      },
+      "rolePerms": null
+    }
+  }
+}

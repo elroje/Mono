@@ -1,0 +1,7 @@
+{
+    "chooseColorTitle": "Mono Color Theme",
+    "chooseColorDescription": "You can change the color of embeds which Mono send. Use `{{prefix}}themecolor <color name>` with color code from list below. You also can pass your own HEX code, for example `{{prefix}}themecolor #0077FF`.",
+    "availableColors": "Available colors",
+    "colorChanged": "Theme color changed successfully!",
+    "colorNotFound": "This color was not found. Use one of the predefined colors (`m.colortheme`) or enter a HEX code."
+}

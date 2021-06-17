@@ -1,0 +1,6 @@
+{
+    "success": "Your link has been shortened successfully! {{shortenLink}}",
+    "e:noURLProvided": "Please provide URL you want to be shorten",
+    "e:invalidURL": "Please provide valid URL",
+    "e:errorOccurred": "Looks like some error occurred. Please try again later."
+}
