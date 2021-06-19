@@ -27,9 +27,7 @@ class Ping extends Command {
 
         const pongEmbed = new MessageEmbed()
             .setColor(themeColor || message.client.defaultColor)
-            .setDescription(t('pong', {
-                ping: ping
-            }))
+            .setDescription(t('pong', { ping }))
 
         msg.edit({ embeds: [pongEmbed] })
     }
